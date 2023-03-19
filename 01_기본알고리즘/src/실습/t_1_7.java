@@ -14,14 +14,17 @@ public class t_1_7 {
 		System.out.print("n을 입력해봐:");
 		int n= sc.nextInt();
 		int sum= 0;
-		int i =0;
+		int i =1;
 		while(i<=n) {
+			if(i<n) {
+				System.out.print(i+"+");
+			} else {
+				System.out.print(i+"=");
+			}		
 			sum+=i;
-			i++;
-			
-			System.out.println(i);
+			i++;	
 		}
-		//System.out.println("합은"+sum+"입니다.");
+		System.out.print(sum);
 	}
 }
 
