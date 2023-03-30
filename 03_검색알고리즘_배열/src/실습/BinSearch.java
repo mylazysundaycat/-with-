@@ -43,6 +43,7 @@ public class BinSearch {
 	public static void main(String[] args) {
 		int[] a = {1,2,3,6,7,9,13,55,62,782,1312};
 		System.out.println(binSearch2(a,7382));
-		
 	}
+	
+	
 }
