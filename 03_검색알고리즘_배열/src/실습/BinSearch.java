@@ -11,6 +11,7 @@ public class BinSearch {
 			if(a[bin_num]==key) {
 				return bin_num;
 			} else if(a[bin_num]>key) {
+				
 				end = bin_num-1;
 			} else if(a[bin_num]<key) {
 				start = bin_num+1;
