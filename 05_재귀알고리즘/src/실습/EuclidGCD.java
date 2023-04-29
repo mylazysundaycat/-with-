@@ -22,4 +22,6 @@ public class EuclidGCD {
 		int c = euclidGCD(a,b);
 		System.out.println(c);
 	}
+	
+	
 }
